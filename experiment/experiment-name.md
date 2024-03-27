@@ -1,1 +1,1 @@
-## Experiment name
+## Design of RC Short Column with Axial Load and Bending Moment.
