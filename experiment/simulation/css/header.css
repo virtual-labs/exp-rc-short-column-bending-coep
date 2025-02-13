@@ -14,10 +14,9 @@ header {
 	border: 1px solid;
 	height: 100px;
 	width: 100%;
-	padding: 0 5%;
-	
+	padding: 0 5%;	
 	background: rgb(125,176,169);
-background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
+   background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
 }
 
  svg {margin-top:0px;
@@ -41,6 +40,7 @@ header .VlabLogo{
 	background: #fff;
 	float: right;
 	margin-right: 30px;
+	
 }
 header h1 {
 	font-family: Cambria, Georgia, serif;
@@ -58,6 +58,9 @@ header h1 {
 	margin: 20px;
 	font-weight: bold;
 	letter-spacing: 4px;
+	 
+ 	 top: 0;
+  	width: 100%;
 }
 
 header #appName {
@@ -189,6 +192,4 @@ header h2 {
 	header h2 {
 		font-size: 19px;
 	}
-  
 }
-
