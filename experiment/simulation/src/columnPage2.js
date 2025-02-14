@@ -110,7 +110,12 @@ function Page2(){
 	  			   	 +'</div>'
 	  			   	 
 	  			   	  +'<div class="col-sm-12" >'
+	  			   	  +'<div class="col-sm-10">'
       			  	 +' <center><label class="labelstyle " style = "color:#1a6f87; font-size: 18px;"  > Use table A of SP-16 </label> </center>'
+      			  	  +'</div>'
+      			  	  +'<div class="col-sm-2">'
+				    +'<button type="submit"   id="refer"  style=" background-color: #008CBA;;" data-toggle="modal" data-target="#myModal" style="width:100%;height:50%;margin-top: -6px;" >Refer</input>'
+				     +'</div>'
 	  			   	 +'</div>'
 	
 				  +'<div class="col-sm-12" id="forceEntered" >'
@@ -156,6 +161,16 @@ function Page2(){
 	  			
 		
 		$("#page1Div2").html(page2htm);	
+		
+		
+		$("#refer").click(function(){
+			
+			  $(".modal-header").html("Reference Table");
+			$(".modal-header").css("background","#23435c");
+			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
+			modelImg = '<img src="images/Linear_interpolation.png" class="img-responsive" alt="Cinque Terre">'
+            $("#MsgModal").html(modelImg);		  
+		});
 
 		
 	$("#fsc_submit").click(function(){
@@ -323,7 +338,10 @@ function Page2(){
 	  			 +'</div>'
 	  			 +'</div>'
       				
-      			$("#page1Div2").append(page2htm2);	
+      			$("#page1Div2").append(page2htm2);
+      			
+      			
+      			
       			
       			
       			 $("#page3Next").click(function(){
