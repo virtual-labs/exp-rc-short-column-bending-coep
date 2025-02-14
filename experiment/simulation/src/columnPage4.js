@@ -2,6 +2,7 @@ var ascProvided ;
 var buser;
 var duser;
 var acsflg = 0;
+var bflg = 0;
 function page4()
 {		
 	
@@ -62,6 +63,8 @@ function page4()
 			
 			function calculateLast(){
 				var acsflg = 0;
+				bflg = 1;
+				columnLast();
 			var ascpro	= (buser * (3.14/4)*duser*duser);
 			ascProvided = parseFloat(ascpro);
 			ascProvided = ascProvided.toFixed(2);
@@ -73,7 +76,7 @@ function page4()
 			let cond1 = Math.min(D_val,colSize);
 			let cond3 = 300;
 			let smallest = Math.min(cond1,cond2,cond3);
-			console.log("Smallest number is:", smallest);
+//			console.log("Smallest number is:", smallest);
 			
 			label = '<div class = "row" id = "labelrow" >'
 		+'<div class="col-sm-2">'
@@ -111,7 +114,7 @@ function page4()
 		+'<div class="col-sm-2">'
 		+'</div>'
       	 +'<div class="col-sm-6 marginBottom" id="shearLabel">'
-         +' <center><label class="labelstyle " > Least lateral dimension  = '+cond1+'  </label></center> '
+         +' <center><label class="labelstyle " >1. Least lateral dimension  = '+cond1+'  </label></center> '
       	+'</div>'
       	+'</div>'
       	
@@ -119,7 +122,7 @@ function page4()
 		+'<div class="col-sm-2">'
 		+'</div>'
       	 +'<div class="col-sm-6 marginBottom" id="shearLabel">'
-         +' <center><label class="labelstyle " > 16 X Longitudinal bar  = '+cond2+' mm </label></center> '
+         +' <center><label class="labelstyle " >2. 16 X Longitudinal bar  = '+cond2+' mm </label></center> '
       	+'</div>'
       	+'</div>'
       	
@@ -127,7 +130,7 @@ function page4()
 		+'<div class="col-sm-2">'
 		+'</div>'
       	 +'<div class="col-sm-6 marginBottom" id="shearLabel">'
-         +' <center><label class="labelstyle " > condition 3  = '+cond3+' mm  </label></center> '
+         +' <center><label class="labelstyle " > 3. '+cond3+' mm  </label></center> '
       	+'</div>'
       	+'</div>'
       	
@@ -135,7 +138,7 @@ function page4()
 		+'<div class="col-sm-2">'
 		+'</div>'
       	 +'<div class="col-sm-6 marginBottom" id="shearLabel">'
-         +' <center><label class="labelstyle " > Lateral of tie bars = '+smallest+'  </label></center> '
+         +' <center><label class="labelstyle " > Lateral spacing of tie bars = '+smallest+' mm  </label></center> '
       	+'</div>'
       	+'</div>'
       	
