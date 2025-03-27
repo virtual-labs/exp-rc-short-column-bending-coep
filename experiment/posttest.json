@@ -2,66 +2,66 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "A column will be considered as pedestal when its effective length is less than :",
+      "question": "Which reinforcement arrangement is ideal for a short column subjected to biaxial bending?",
       "answers": {
-        "a": "3 h",
-        "b": "greater than 0.8h",
-        "c": "2 h",
-        "d": "1 h"
+        "a": "Reinforcement concentrated at two opposite faces",
+        "b": "Symmetrically distributed reinforcement at all four sides",
+        "c": "Reinforcement provided only along the major bending axis",
+        "d": "No reinforcement needed"
       },
      
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "The minimum percentage of reinforcement in RC short column shall be",
+      "question": "The term "interaction curve" in column design represents:",
       "answers": {
-        "a": "4 % ",
-        "b": "6 % ",
-        "c": "0.4 % ",
-        "d": "0.8 % "
+        "a": "The relationship between axial load and shear force",
+        "b": "The relationship between axial load and bending moment ",
+        "c": "The variation of moment along the column height",
+        "d": "The stress-strain curve of concrete"
       },
      
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 	
 	{
-      "question": "The minimum percentage of reinforcement in long column shall be:",
+      "question": "A rectangular RC short column (300 mm × 450 mm) carries an axial factored load of 1500 kN and a moment of 75 kNm about its major axis. What is the approximate eccentricity of the load?",
       "answers": {
-        "a": "0.8 %",
-        "b": "6 %",
-        "c": "0.4 %",
-        "d": "4 %"
+        "a": "30 mm",
+        "b": " 40 mm",
+        "c": " 50 mm",
+        "d": " 60 mm"
       },
      
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
 	
 	{
-      "question": "The maximum percentage of reinforcement in RC short column shall be",
+      "question": "A site engineer observes diagonal cracks in an RC short column. This indicates:",
       "answers": {
-        "a": "6 % ",
-        "b": "4 %",
-        "c": "0.8 %",
-        "d": "0.4 %"
+        "a": "Pure compression failure",
+        "b": "Bending failure",
+        "c": "Shear failure",
+        "d": "Buckling failure"
       },
      
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
 	
 	{
-      "question": "The maximum percentage of reinforcement in RC long column shall be :",
+      "question": "A rectangular RC column is subjected to an axial load of 1500 kN and a uniaxial moment of 75 kNm. If the eccentricity of the load is 50 mm, what is the approximate stress distribution?",
       "answers": {
-        "a": "6 % ",
-        "b": "8 %",
-        "c": "0.4 %",
-        "d": "4 %"
+        "a": "Uniform compression",
+        "b": "Compression at one side, tension at the other side",
+        "c": "Shear stress variation",
+        "d": "Pure bending stress"
       },
      
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
