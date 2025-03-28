@@ -1,6 +1,6 @@
 ## (RC) short column subjected to both axial compression (direct force) and uniaxial bending (bending about one axis).
 ### Theory:
-Short columns are RC columns with a slenderness ratio (ratio of effective length to least lateral dimension) less than a specific code limit (typically around 12). Their behavior is governed by both axial compression and bending moment due to eccentricity of the applied load or inherent imperfections.
+Short columns are RC columns with a slenderness ratio (ratio of effective length to least lateral dimension) less than a specific code limit (typically around 12). Their behavior is governed by both axial compression and bending moment due to eccentricity of the applied load or inherent imperfections.<br>
 ![1](images/image1.png)
 Possible strain profiles under ultimate limit state in eccentriccompression
 ### The design considers:
