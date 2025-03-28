@@ -1,7 +1,7 @@
-## (RC) short column subjected to both axial compression (direct force) and uniaxial bending (bending about one axis).
+
 ### Theory:
 Short columns are RC columns with a slenderness ratio (ratio of effective length to least lateral dimension) less than a specific code limit (typically around 12). Their behavior is governed by both axial compression and bending moment due to eccentricity of the applied load or inherent imperfections.<br>
-![1](images/image1.png)
+![1](images/image1.png)<br>
 Possible strain profiles under ultimate limit state in eccentriccompression
 ### The design considers:
 
@@ -15,8 +15,8 @@ These are code-provided charts that relate the axial load capacity (Pu) to the b
 ### Interaction Curve
 
 The ‘interaction curve’ is a complete graphical representation of the design strength of a uniaxially eccentrically loaded column of given proportions. Each point on the curve corresponds to the design strength values of (PuR)  and(MuR)  associated with a specific eccentricity (e) of loading. That is to say, if load P is applied on a short column with an eccentricity e, and if this load is gradually increased till the ultimate limit state (defined by the Code) is reached, and that ultimate load at failure is given by Pu = PuR and the corresponding moment by Mu = MuR = PuR e, then the coordinates (MuR, PuR)form a unique point on the interaction diagram.
-The interaction curve defines the different (MuR, PuR) combinations for all possible eccentricities of loading 0 ≤ e < ∞. For design purposes, the calculations of MuR and PuR are based on the design stress-strain curves (including the partial safety factors), and the resulting interaction curve is sometimes referred to as the design interaction curve (which is different from the characteristic interaction curve). Using the design interaction curve for a given column section, it is possible to make a quick judgement as to whether or not the section is ‘safe’ under a specified factored load effect combination (Pu, Mu). If the point given by the coordinates (Mu, Pu) falls within the design interaction curve, the column is ‘safe’; otherwise, it is not.
-![2](images/image2.png)
+The interaction curve defines the different (MuR, PuR) combinations for all possible eccentricities of loading 0 ≤ e < ∞. For design purposes, the calculations of MuR and PuR are based on the design stress-strain curves (including the partial safety factors), and the resulting interaction curve is sometimes referred to as the design interaction curve (which is different from the characteristic interaction curve). Using the design interaction curve for a given column section, it is possible to make a quick judgement as to whether or not the section is ‘safe’ under a specified factored load effect combination (Pu, Mu). If the point given by the coordinates (Mu, Pu) falls within the design interaction curve, the column is ‘safe’; otherwise, it is not.<br>
+![2](images/image2.png)<br>
 ###### Typical Pu -Mu Interaction Diagram
 ### Design Steps :
 
