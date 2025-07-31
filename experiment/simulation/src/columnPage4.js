@@ -43,7 +43,7 @@ function page4()
 					$("#blink1").prop("hidden",true);
 //					blinker();
 				}else{
-					
+					 $("#dsubmit").prop("disabled",true);
 				}
 				
 		});	
@@ -56,7 +56,9 @@ function page4()
 					$("#blink1").prop("hidden",true);
 				
 			}else{
+				$("#bsubmit").prop("disabled",true);
 				calculateLast();
+				
 			}
 			
 			});
@@ -166,6 +168,8 @@ function page4()
 					toastr.error('<span class="blinking1">Enter Value greater than '+condtie+' mm </span>');
 					$("#blink1").prop("hidden",true);
 				
+			}else{
+				$("#tsubmit").prop("disabled",true);
 			}
 			
 			});
