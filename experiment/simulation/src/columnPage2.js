@@ -185,9 +185,10 @@ function Page2(){
 			 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Values not found");
+			$("#MsgModal").html("Please enter the values");
 		}else{
 			
+			$("#fsc_submit").prop("disabled",true);
 			  fstflg = 1;
 	         ColumnAnim();
 			var y23 = (esc - x1)
@@ -266,9 +267,10 @@ function Page2(){
 			 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Values not found");
+			$("#MsgModal").html("Please enter the values");
 		}else{
 			
+			$("#fst_submit").prop("disabled",true);
 			var y231 = (est - xt1)
 			var y221  =  (yt3 - yt1);
 			var y210 = (y231*y221);

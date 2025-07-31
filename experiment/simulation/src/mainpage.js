@@ -220,12 +220,12 @@ var htm ='<div class="row">'
 	eCover_val = $("#effectiveCover").val();
 	d_val = (D_val - eCover_val);
 	
-	if(pre==""||conVal==0||steelVal==0||colSize==""||d_val==""||e_val ==""||eCover_val==""|| pu_val==""){
+	if(pre==""||conVal==0||steelVal==0||colSize==""||e_val ==""||eCover_val==""|| pu_val==""){
 		
 		    $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Values not found");
+			$("#MsgModal").html("Please enter the values");
 			
 	}else{
 	
@@ -241,7 +241,7 @@ var htm ='<div class="row">'
 	var pucorr = pre*1.5;
 
 	
-	if(pre<=0||conVal==0||steelVal==0||colSize<=0||d_val<=0||e_val<=0||eCover_val<=0)
+	if(pre<=0||conVal==0||steelVal==0||colSize<=0||e_val<=0||eCover_val<=0)
 	  {
 		    $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
@@ -253,9 +253,16 @@ var htm ='<div class="row">'
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 			$("#MsgModal").html("Enter value of Design Load 1.5 X Pressure ");
+	}else if(d_val<=0){
+			$(".modal-header").html("Error Message");
+			$(".modal-header").css("background","#9c1203b0");
+			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
+			$("#MsgModal").html("Enter value of D greater than effective cover d' ");
+		
 	}else{
 		Page1();
 		ColumnAnim();
+		$("#checkConfg").prop("disabled",true);
 		$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");

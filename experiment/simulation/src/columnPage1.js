@@ -127,6 +127,8 @@ function Page1(){
 					{
 					if (id <= 3) {
 						if (xubal_user == xubal) {
+							 $("#Xubal_submit").prop("disabled",true);
+							  $("#text1").prop("disabled",true);
 							 $("#xuLabel").prop("hidden",false);
 							  $("#xuTemp").text(xu+" mm ");
 							  $("#ecLabel").prop("hidden",false);
@@ -164,6 +166,8 @@ function Page1(){
 						xubal_user =  $("#text1").val(); 
 //						flow = flowAns.toFixed(2);
 						if (xubal_user == xubal) {
+						$("#Xubal_submit").prop("disabled",true);
+						  $("#text1").prop("disabled",true);
 						 $("#xuLabel").prop("hidden",false);
 						$("#xuTemp").text(xu+" mm ");
 						  $("#ecLabel").prop("hidden",false);
@@ -211,6 +215,8 @@ function Page1(){
 					{
 					if (id1 <= 3) {
 						if (esc_user == esc) {
+							  $("#esctext").prop("disabled",true);
+							    $("#esc_submit").prop("disabled",true);
 							$("#calest").prop("hidden",false);
 							$(".modal-header").html(" Message");
 					$(".modal-header").css("background","#47d163");
@@ -245,6 +251,8 @@ function Page1(){
 						esc_user =  $("#esctext").val(); 
 //						flow = flowAns.toFixed(2);
 						if (esc_user == esc) {
+							  $("#esctext").prop("disabled",true);
+							 $("#esc_submit").prop("disabled",true);
 							$("#calest").prop("hidden",false);
 							$(".modal-header").html(" Message");
 					$(".modal-header").css("background","#47d163");
@@ -288,6 +296,8 @@ function Page1(){
 					{
 					if (id2 <= 3) {
 						if (est_user == est) {
+							$("#esttext").prop("disabled",true);
+							$("#est_submit").prop("disabled",true);
 							$("#calest").prop("hidden",false);
 							$(".modal-header").html(" Message");
 					$(".modal-header").css("background","#47d163");
@@ -323,6 +333,8 @@ function Page1(){
 						est_user =  $("#esttext").val(); 
 //						flow = flowAns.toFixed(2);
 						if (est_user == est) {
+							$("#esttext").prop("disabled",true);
+							$("#est_submit").prop("disabled",true);
 							$("#calest").prop("hidden",false);
 							$(".modal-header").html(" Message");
 					$(".modal-header").css("background","#47d163");
