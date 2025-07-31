@@ -1,0 +1,64 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "A reinforced concrete short column is considered to be under combined axial load and bending moment when:",
+      "answers": {
+        "a": "The load is applied exactly at the centroid of the column cross-section",
+        "b": "The load is applied at any point other than the centroid",
+        "c": "The column carries only compressive force",
+        "d": "The column is laterally restrained on all sides"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The strength of an RC column under combined axial load and bending moment is evaluated using:",
+      "answers": {
+        "a": "Euler’s buckling formula",
+        "b": "Interaction diagrams",
+        "c": "Mohr’s circle",
+        "d": "Rankine’s theory"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which reinforcement is provided to resist lateral expansion of concrete in a column?",
+      "answers": {
+        "a": "Longitudinal bars",
+        "b": " Stirrups",
+        "c": "Ties or spirals",
+        "d": "Cover blocks"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	
+	{
+      "question": "In an RC column under combined axial load and bending, which stress distribution assumption is valid?",
+      "answers": {
+        "a": "Plane sections remain plane before and after bending",
+        "b": " Concrete carries tension beyond cracking",
+        "c": "Steel carries all the axial load",
+        "d": "Load distribution is uniform throughout the column height"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "As per IS 456:2000, for a column subjected to axial load and bending moment, the minimum eccentricity in any direction should not be less than:",
+      "answers": {
+        "a": "L/500 + D/30",
+        "b": "L/600 + D/20",
+        "c": "L/400 + D/40",
+        "d": "L/250 + D/50"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+	
+  ]
+}
