@@ -152,11 +152,30 @@ function page4()
     	
       	
       	$("#page1Div2").append(label);
-	
 		
-	
-			
-			
+		
+		function endExperiment() {
+  // Your experiment completion logic here...
+  
+  // Then show the Swal
+//  Swal.fire({
+//    title: 'All Done!',
+//    text: 'Thanks for completing the experiment.',
+//    imageUrl: 'https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif',
+//    imageWidth: 300,
+//    imageHeight: 200,
+//    confirmButtonText: 'Close'
+//  });
+  
+  Swal.fire({
+  icon: 'success',
+  title: 'Experiment Finished!',
+  text: 'Well done. You have completed experiment sucessfully.',
+  confirmButtonText: 'Okay'
+});
+}
+
+					
 			
 			let condtie = Math.max(duser,6);
 			$("#tsubmit").click(function() {
@@ -169,6 +188,7 @@ function page4()
 					$("#blink1").prop("hidden",true);
 				
 			}else{
+				endExperiment();
 				$("#tsubmit").prop("disabled",true);
 			}
 			
