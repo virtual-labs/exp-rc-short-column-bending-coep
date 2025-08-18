@@ -63,6 +63,19 @@
      
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+	
+	{
+      "question": "In a short column, bending moment occurs mainly due to:",
+      "answers": {
+        "a": "Material shrinkage",
+        "b": "Load eccentricity and imperfections",
+        "c": "Concrete creep only",
+        "d": "Self-weight of column only"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }

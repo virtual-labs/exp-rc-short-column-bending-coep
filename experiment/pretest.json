@@ -58,6 +58,30 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+	
+	{
+      "question": "As per IS 456:2000, for a column subjected to axial load and bending moment, the minimum eccentricity in any direction should not be less than:",
+      "answers": {
+        "a": "L/500 + D/30",
+        "b": "L/600 + D/20",
+        "c": "L/400 + D/40",
+        "d": "L/250 + D/50"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "A short RC column is generally defined as having a slenderness ratio:",
+      "answers": {
+        "a": "Less than 8",
+        "b": "Less than 12",
+        "c": "Greater than 12",
+        "d": "Greater than 20"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
 	
   ]
