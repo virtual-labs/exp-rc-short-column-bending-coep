@@ -1,6 +1,6 @@
-### Procedure 
+## PROCEDURE 
 
-### Configuration:-
+### Configuration:
 - Enter the following design parameters:<br>
 Working Load (P) in KN<br>
 Eccentricity (e) in mm<br>
@@ -9,7 +9,7 @@ Effective cover (d<sup>’</sup>) in mm<br>
 - Select the grade of concrete (f<sub>ck</sub>) and grade of steel (f<sub>y</sub>) in N/mm<sup>2</sup>.
 - Click on ‘Check Configuration’ button and proceed to the next step.
  
-### Calaculation:-
+### Calaculation:
 -	Calculate X<sub>ubal</sub> using the ratio of limiting depth of neutral axis to the effective depth.<br>
 	X<sub>u</sub>/d (for Fe 250) = 0.53<br>
 	X<sub>u</sub>/d (for Fe 415) = 0.48<br>
