@@ -1,15 +1,16 @@
-
-### Theory:
+## Theory
 Short columns are RC columns with a slenderness ratio (ratio of effective length to least lateral dimension) less than a specific code limit (typically around 12). Their behaviour is governed by both axial compression and bending moment due to eccentricity of the applied load or inherent imperfections.<br>
 ![1](images/image1.png)<br>
+
 Possible strain profiles under ultimate limit state in eccentriccompression.
+
 ### The design considers:
 
-##### Equilibrium :  
+#### Equilibrium :  
 Balancing the applied axial load (Pu) and bending moment (Mu) with the resisting forces and moments developed by the concrete and steel reinforcement.
-##### Material Properties :
+#### Material Properties :
 Characteristic compressive strength of concrete (fck) and characteristic yield strength of steel reinforcement (fy).
-##### Interaction Diagrams :
+#### Interaction Diagrams :
 These are code-provided charts that relate the axial load capacity (Pu) to the bending moment capacity (Mu) of a specific section for various reinforcement ratios.
 
 ### Interaction Curve
@@ -20,16 +21,16 @@ The interaction curve defines the different (M<sub>uR</sub>, P<sub>uR</sub>) com
  Typical Pu -Mu Interaction Diagram
 ### Design Steps :
 
-##### Define Design Parameters :
+#### Define Design Parameters :
 Specify the applied axial load (P<sub>u</sub>) and bending moment (M<sub>u</sub>) on the column.
 Choose design values for concrete strength (f<sub>ck</sub>) and steel yield strength (f<sub>y</sub>) based on material specifications and code requirements.
 Select a desired concrete cover thickness for durability (refer to building codes).
 
-##### Determine Column Dimensions :
+#### Determine Column Dimensions :
 Considering architectural constraints and spacing requirements, choose a preliminary rectangular or square cross-section for the column (b x h).
 Check code provisions for minimum column dimensions.
 
-##### Effective Length Calculation :
+#### Effective Length Calculation :
 Based on the end support conditions (fixed, hinged, etc.), calculate the effective length (Le) of the column using code formulas.
 ![2](images/image3.png)
 #### Slenderness Ratio Check :
