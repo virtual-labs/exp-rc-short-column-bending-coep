@@ -1,1 +1,1 @@
-## Design of RC Short Column with Axial Load and Bending Moment.
+## Design of RC Short Column with Axial Load and Bending Moment
