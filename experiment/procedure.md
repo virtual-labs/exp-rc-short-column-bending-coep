@@ -15,8 +15,8 @@ Effective cover (d<sup>’</sup>) in mm<br>
 	X<sub>u</sub>/d (for Fe 415) = 0.48<br>
 	X<sub>u</sub>/d(for Fe 500) = 0.46<br>
 -	Click on submit and after three incorrect attempts the correct answer and formula will be displayed.
--	Calculate the strain in compression ($$\epsilon$$<sub>sc</sub>). After three incorrect attempts the correct formula and answer will be displayed.
--	Calculate the strain in tension steel ($$\epsilon$$<sub>st</sub>). After three incorrect attempts the correct formula and answer will be displayed.
+-	Calculate the strain in compression (&epsilon;<sub>sc</sub>). After three incorrect attempts the correct formula and answer will be displayed.
+-	Calculate the strain in tension steel (&epsilon;<sub>st</sub>). After three incorrect attempts the correct formula and answer will be displayed.
 -	Click on ‘Next Level’ to proceed to the next step.
 -	Stresses in compression and tension are calculated. Click on ‘Next Level’ to proceed to the next step.
 -	Tension and compression steel area is calculated. Click on ‘Next Level’ to proceed to the next step.
