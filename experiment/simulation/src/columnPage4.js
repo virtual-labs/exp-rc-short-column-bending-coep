@@ -93,6 +93,7 @@ function page4()
 		+'</div>'	
          +'<div class="col-sm-8 marginBottom" id="shearLabel">'
          +' <center><label class="labelstyle " > ASC provided should be greater than ASC required </label></center> '
+         +' <center><label class="labelstyle " > Some configuration values look wrong. Please fix them and try again </label></center> '
       	+'</div>'
       	+'</div>'
 		  }else{
